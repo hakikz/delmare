@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@font-face {
+  font-family: 'oggRoman';
+  src: url('../fonts/OggRoman/OggRoman.ttf');
+}
+
+
+$ogg: 'oggRoman';
+$roboto: 'Roboto', sans-serif; 
+$size: 15px;

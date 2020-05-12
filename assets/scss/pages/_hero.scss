@@ -1,0 +1,9 @@
+.hero{
+    margin: 30px 0 100px 0;
+    .text-wrapper{
+        @include text-wrapper;
+        h2{
+            padding-top: 80px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@mixin text-wrapper {
+  padding: 0 70px;
+  h2 {
+    font-size: $size + 22px;
+    margin-bottom: 40px;
+  }
+  h6 {
+    font-weight: 400;
+    font-size: $size + 2px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: $size - 2px;
+    margin-bottom: 50px;
+  }
+}

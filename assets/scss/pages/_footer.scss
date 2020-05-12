@@ -1,0 +1,67 @@
+.footer{
+    padding: 100px 70px 30px 70px;
+    background-color: $blue;
+    color: $white;
+
+    .logo-wrapper{
+        max-width: 200px;
+        margin-bottom: 50px;
+    }
+
+    .foot-title{
+        margin-bottom: 60px; 
+    }
+
+    .foot-sub-title{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .form{
+        input{
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 0;
+            &::placeholder{
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
+
+    .team-wrapper{
+        display: block;
+        margin: 50px 0 80px 0;
+    }
+
+    h3{
+        br{
+            content: "";
+            display: block;
+            margin: 5px 0;
+        }
+        margin-bottom: 50px;
+    }
+
+    .disclaimer{
+        text-align: justify;
+        small{
+            font-size: $size - 3px;
+        }
+    }
+
+    .nav{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        li{
+            a{
+                color: $white;
+                text-decoration: underline;
+                font-weight: 300;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.education{
+    padding: 100px 0;
+    position: relative;
+    background-color: $blue;
+    .text-wrapper{
+        margin-top: 150px;
+        @include text-wrapper;
+        color: $white;
+
+        a{
+            background-color: $white;
+            color: $blue;
+        }
+    }
+}

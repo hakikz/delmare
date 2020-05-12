@@ -1,0 +1,17 @@
+.team {
+  position: relative;
+  background-color: $ash;
+  padding: 100px 50px 100px 70px;
+  .team-wrapper {
+    margin-top: 40px;
+    h2 {
+      font-size: $size + 22px;
+      margin-bottom: 40px;
+    }
+    .img-block {
+      display: flex;
+      align-items: center;
+      height: 200px;
+    }
+  }
+}

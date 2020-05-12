@@ -1,0 +1,16 @@
+@import "helper/_fonts";
+@import "helper/_mixins";
+@import "helper/_variables";
+@import "helper/_common";
+@import "helper/_responsive";
+
+
+// Section Wise SCSS
+
+@import "pages/_header";
+@import "pages/_hero";
+@import "pages/_timeless";
+@import "pages/_location";
+@import "pages/_education";
+@import "pages/_team";
+@import "pages/_footer";

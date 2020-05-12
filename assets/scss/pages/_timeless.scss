@@ -1,0 +1,8 @@
+.timeless {
+  position: relative;
+  margin-bottom: 100px;
+  .text-wrapper{
+      margin-top: 150px;
+      @include text-wrapper;
+  }
+}
